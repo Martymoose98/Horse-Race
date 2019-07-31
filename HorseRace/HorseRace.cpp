@@ -1,4 +1,4 @@
-// WhoreRace.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// HorseRace.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <Windows.h>
@@ -56,7 +56,7 @@ int main()
 	std::vector<Horse> horses;
 	Horse* winner = nullptr;
 
-	SetConsoleTitle(TEXT("Whore Race"));
+	SetConsoleTitle(TEXT("Horse Race"));
 	srand(GetTickCount());
 
 	horses.push_back(Horse("Moby Dick"));
@@ -66,7 +66,7 @@ int main()
 	horses.push_back(Horse("Tiki"));
 
 	std::cout << "+============+" << std::endl;
-	std::cout << "+ Whore Race +" << std::endl;
+	std::cout << "+ Horse Race +" << std::endl;
 	std::cout << "+============+" << std::endl;
 	std::cout << std::endl << std::endl;
 
